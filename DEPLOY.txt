@@ -1,0 +1,17 @@
+MOHD. SHAFIUDDIN PORTFOLIO — VERCEL PE FREE DEPLOY KAISE KARE
+==============================================================
+
+1) github.com pe free account bana lo (ya login karo).
+2) Upar "+" > "New repository" dabao. Naam do, jaise: mohd-portfolio. "Public" rakho, phir "Create repository".
+3) Naye repo mein "uploading an existing file" link dabao. Is folder (mohd-portfolio) ke ANDAR ki saari files aur folders (index.html, styles.css, script.js, site-config.js, assets folder, sab) drag karke daalo, phir "Commit changes" dabao.
+4) vercel.com pe jao, "Sign Up" > "Continue with GitHub" se login karo.
+5) "Add New..." > "Project" dabao. Apna mohd-portfolio repo dikhega, uske saamne "Import" dabao.
+6) Kuch bhi change mat karo, seedha "Deploy" dabao. 1 minute mein aapki website live ho jayegi, link milega jaise: mohd-portfolio.vercel.app
+
+CLI option (computer pe Node ho to): folder mein terminal kholo aur chalao:  npx vercel --prod
+
+BAAD MEIN CHANGES:
+- Instagram / Facebook / YouTube / Email: sirf "site-config.js" file kholo, upar wale CONFIG block mein link daal do. Jo khaali rahega uska icon apne aap chhup jayega.
+- Photo badalni ho: nayi photo ko "assets/profile.webp" naam se replace karo (background hata ke ho to sabse accha lagta hai).
+- GitHub pe file update karte hi Vercel khud naya version live kar deta hai.
+- Vercel ka link mil jaye to index.html mein "mohd-shafiuddin.sites.tab.bot" ko apne naye link se badal dena (WhatsApp share card ke liye).
