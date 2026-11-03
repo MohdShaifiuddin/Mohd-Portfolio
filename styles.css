@@ -343,3 +343,6 @@ h2 em{font-style:normal;color:var(--red)}
 @media (max-width:420px){.sg-stats span{letter-spacing:.1em;font-size:10px}}
 
 .shaheen h2 .h-accent{display:block;color:var(--red)}
+
+.sg-cta{flex-direction:row;flex-wrap:wrap;justify-content:center}.sg-cta .sg-note{flex-basis:100%}
+.sg-social{border-color:rgba(255,255,255,.28);color:#fff;background:transparent}.sg-social:hover{border-color:var(--red);transform:translateY(-2px)}
